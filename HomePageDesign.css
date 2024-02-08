@@ -1,0 +1,94 @@
+
+.parallax{
+    text-align: center;
+    color: white;
+    font-size: large;
+    background-image: url("photo/PUP.jpg");
+    min-height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 20;
+}
+.parallax img.PUP_Logo{
+    height: 250;
+    width: 250;
+}
+.parallax img.polyu{
+    height: auto;
+    width: auto;
+}
+.HP_body{
+    margin: 0;
+    padding: 5;
+    background-color: maroon;
+    color: gold;
+    text-align: center;
+}
+.HP_details{
+    margin: 0;
+    padding: 5;
+    background-image: url(photo/Half_Logo2.png);
+    background-size: cover;
+    color: maroon;
+    font-size: medium;
+}
+.HP_details h1{
+    text-align: center;
+    font-size: xx-large;
+    margin: 0;
+    padding: 5;
+    
+}
+
+nav {
+    background-color: maroon;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+nav a.active {
+    background-color: goldenrod;
+    color: white;
+}
+
+.divider_1{
+    background-color: #ddd;
+    padding: 1;
+    border: 1;
+}
+.divider_2{
+    background-color: #ddd;
+    padding: 5;
+    border: 1;
+}
+
+.parallax_2{
+    text-align: center;
+    color: white;
+    font-size: large;
+    background-image: url("photo/PUP_Pylon.jpg");
+    min-height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 20;
+}
+

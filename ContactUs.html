@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactUs</title>
+    <link rel="stylesheet" href="ContactUs.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="forms.html">APPLICATION FOR NEW / REPLACEMENT OF IDENTIFICATION CARD</a>
+        <a href="ContactUs.html" class="active">CONTACT US</a>
+    </nav>
+      </div>
+
+    <div class="parallax">
+        <img class="mainlogo" src="photo/PUP_Logo_Fin.png" alt="PUP Logo"><br>
+            <a href="https://www.facebook.com/ThePUPOfficial"><img src="photo/Facebook.png" alt="FB_Logo"></a>
+            <a href="https://twitter.com/ThePUPOfficial"><img src="photo/X.png" alt="X"></a>
+            <a href="https://www.youtube.com/user/pupcreatv"><img src="photo/YT.png" alt="YouTube"></a>
+            <a href="https://www.linkedin.com/school/polytechnic-university-of-the-philippines/"><img src="photo/Linkedin.png" alt="Linkedin"></a>
+            <a href="https://www.pup.edu.ph/rss/"><img src="photo/NS.png" alt="photo/DikoAlamKungAnoTo"></a>
+            <a href="https://open.spotify.com/show/6x7hlv9qZX8VpwMIRAAiRb?si=h7yM8PeXR6qxSjQIs2GveA&dl_branch=1&nd=1&dlsi=4968f520f7eb4424"><img src="photo/Spotify.png" alt="Spotify"></a><br>
+        </div>
+
+    <div class="Contact_deets">
+        <a>Email: inquire@pup.edu.ph</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <a>Phone: (+63 2) 5335-1PUP (5335-1787) or 5335-1777</a>
+    </div>
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <form     
+         id="contact-form" action="https://script.google.com/macros/s/AKfycbwWZUKAjEXgSvWtJqVzL7jP9Ex5hJljAphIN6trKR-2-eUa2nhD-g4UPnzRIE17y_FL/exec" method="post">
+         
+            <div class="form-group">
+                <label for="Name">Your Name:</label>
+                <input type="text" id="name" name="name" class="name" required>
+            </div>
+            <div class="form-group">
+                <label for="Email">Your Email:</label>
+                <input type="email" id="email" name="email" class="email" required>
+            </div>
+            <div class="form-group">
+                <label for="Message">Message:</label>
+                <textarea id="message" name="message" class="message" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Send Message</button>
+            </div>
+        </form>
+        <script>
+            document.getElementById('submit').addEventListener('click', function(event) {
+            alert("Thank You For Your Message. We Will Get Back To You As Soon As We Read It")
+        });
+        </script>
+
+
+    
+    </div>    
+</body>
+</html>

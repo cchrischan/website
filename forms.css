@@ -1,0 +1,240 @@
+body{
+
+    background-color: rgb(226, 222, 216);
+
+}
+
+nav {
+    background-color: maroon;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+nav a.active {
+    background-color: goldenrod;
+    color: white;
+}
+
+.Appli_heading{
+    text-align: center;
+}
+
+#forms {
+    border: 2px solid #000; 
+    padding: 20px; 
+    
+}
+
+#forms {
+    margin-top: 80px;
+    margin: auto;
+    max-width: 800px; 
+}
+
+img{
+
+    height: 120px;
+    margin-right: 10px;
+    margin-top: 9px;
+}
+
+.combined-header span {
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+.rep_ph {
+    font-size: 16px; /* Set smaller font size for "REPUBLIC OF THE PHILIPPINES" */
+    opacity: 0.7; /* Set opacity for a faded effect */
+}
+
+.pup {
+    font-size: 20px; /* Set larger font size for "POLYTECHNIC UNIVERSITY OF THE PHILIPPINES" */
+}
+
+.office_vp {
+    font-size: 16px; /* Set font size similar to "REPUBLIC OF THE PHILIPPINES" */
+    font-weight: bold; /* Make it bold */
+}
+
+.office_studreg {
+    font-size: 28px; /* Set the largest font size for "OFFICE OF THE STUDENT SERVICE" */
+}
+
+.headings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.appli-indenti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.col {
+    flex-basis: calc(50% - 10px); 
+    margin: 5px; 
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+
+input[type="radio"] {
+    margin-right: 5px; /* Adjust the margin between radio button and label */
+}
+
+.type-application2{
+    margin-right: 35px;
+}
+
+
+.id-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.id-forms {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 600px; /* Set a fixed width or adjust as needed */
+}
+
+.id-forms > div {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+}
+
+.id-forms label {
+    width: 120px; 
+    margin-right: 40px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    white-space: nowrap; 
+}
+
+.gnder-rad{
+    display: flex;
+    align-items: center;
+}
+
+.gnder-rad label{
+
+    margin-left: 30px;
+}
+
+
+.id-forms input[type="radio"] {
+    transform: scale(0.8); /* Adjust the scale to make the radio buttons smaller */
+}
+
+.id-forms input {
+    width: 70%; /* Full width */
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 15px; /* Adjust the font size of the textboxes */
+    height: 30px; /* Adjust the height of the textboxes */
+}
+
+.submission{
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+
+.id-information{
+    margin-bottom: 30px;
+}
+
+.submit{
+    background-color: gray;
+}
+
+.divider {
+    width: 2px; 
+    height: 100px;
+    background-color: black; 
+    margin: 0 10px; 
+}
+
+.contact-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.contact-container h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}

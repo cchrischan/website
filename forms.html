@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Section</title>
+    <link rel="stylesheet" href="forms.css">
+    
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="forms.html" class="active">APPLICATION FOR NEW / REPLACEMENT OF IDENTIFICATION CARD</a>
+        <a href="ContactUs.html">CONTACT US</a>
+    </nav>
+
+<div class="forms" id="forms">
+    <div class="headings" id="headings">
+        <div class="pup-logo" id="pup-logo">
+            <img src="photo/pup-logo.png">
+        </div>
+        <div class="pup_text" id="pup_text">
+            <h1 class="combined-header">
+                <span class="rep_ph">REPUBLIC OF THE PHILIPPINES</span>
+                <span class="pup">POLYTECHNIC UNIVERSITY OF THE PHILIPPINES</span>
+                <span class="office_vp">OFFICE OF THE VICE PRESIDENT FOR STUDENT AFFAIRS AND SERVICE</span>
+                <span class="office_studreg">OFFICE OF THE STUDENT SERVICE</span>
+            </h1>
+        </div>
+    </div>
+<br>
+
+<div class="appli-indenti" id="appli-indenti">
+    <h3 class="new-replacement-label" id="new-replacement-label">APPLICATION FOR NEW/ REPLACEMENT OF IDENTIFICATION CARD</h3>
+</div>
+
+<form action="https://script.google.com/macros/s/AKfycbwWZUKAjEXgSvWtJqVzL7jP9Ex5hJljAphIN6trKR-2-eUa2nhD-g4UPnzRIE17y_FL/exec" method="post" id="id-information-form">
+<!-- For radiobox -->
+<div class="check-boxes" id="check-boxes">
+    <div class="type-application1" id="type-application1">
+        <div class="col">
+            <input type="radio" id="Transferee" name="Status" class="Transferee" value="Transferee" required>
+            <label for="Transferee" name="Transferee">Transferee</label>
+        </div>
+        <div class="col">
+            <input type="radio" id="Late Filling" name="Status" class="Late Filling" value="Late Filling" required>
+            <label for="Late Filling" name="Late Filling">Late Filling</label>
+        </div>
+        <div class="col">
+            <input type="radio" id="Old ID" name="Status" class="Old ID" value="Old ID" required>
+            <label for="Old ID" name="Old ID">Old ID</label>
+        </div>
+    </div>
+
+    <div class="type-application2" id="type-application2">
+        <div class="col">
+            <input type="radio" id="Shiftee" name="Status" class="Shiftee" value="Shiftee" required>
+            <label for="Shiftee" name="Shiftee">Shiftee</label>
+        </div>
+        <div class="col">
+            <input type="radio" id="Damaged" name="Status" class="Damaged" value="Damaged" required>
+            <label for="Damaged" name="Damaged">Damaged</label>
+        </div>
+        <div class="col">
+            <input type="radio" id="Correction of Entry" name="Status" class="Correction of Entry" value="Correction of Entry" required>
+            <label for="Correction of Entry" name="Correction of Entry">Correction of Entry</label>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="yearlvl" id="yearlvl">
+        <div class="col">
+            <input type="radio" id="LHS" name="Department" class="LHS" value="LHS" required>
+            <label for="LHS" name="LHS">LHS</label>
+            <input type="radio" id="SHS" name="Department" class="SHS" value="SHS">
+            <label for="SHS" name="SHS">SHS</label>
+        </div>
+        <div class="col">
+            <input type="radio" id="Undergrad" name="Department" class="Undergrad" value="Undergrad" required>
+            <label for="Undergrad" name="Undergrad">Undergrad</label>
+        </div>
+        <div class="col">
+            <input type="radio" id="College of Law" name="Department" class="College of Law" value="College of Law" required >
+            <label for="College of Law" name="College of Law">College of Law</label>
+        </div>
+    </div>
+    
+    <div class="yearlvl2" id="yearlvl2">
+        <div class="col">
+            <input type="radio" id="Graduate School" name="Department" class="Graduate School" value="Graduate School" required>
+            <label for="Graduate School" name="Graduate School">Graduate School</label>
+        </div>
+        <div class="col">
+            <input type="radio" id="Open University" name="Department" class="Open University" value="Open University" required>
+            <label for="Open University" name="Open University">Open University</label>
+        </div>
+        <div class="col">
+            <input type="radio" id="Institute of Technology" name="Department" class="Institute of Technology" value="Institute of Technology" required>
+            <label for="Institute of Technology" name="Institute of Technology">Institute of Technology</label>
+        </div>
+    </div>
+</div>
+
+<div class="id-information" id="id-information">
+    <h3 class="id-info" id="id-info">ID INFORMATION</h3>
+</div>
+
+<!-- For forms -->
+<div class="id-info">
+    <div class="id-forms" id="id-forms">
+        <div class="stdnum" id="stdnum">
+            <label for="Student Number" name="Student Number">Student Number:</label>
+            <input type="text" name="Student Number"  class="Student Number" id="Student Number" placeholder="ex. 2021-XXXXX-MN-X" required maxlength="16">
+        </div>
+    
+        <div class="fname" id="fname">
+            <label for="Firstname" name="Firstname">First Name:</label>
+            <input type="text" id="Firstname" name="Firstname" class="Firstname" id="Firstname" required maxlength="40">
+        </div>
+    
+        <div class="lname" id="lname">
+            <label for="Lastname" name="Lastname">Last Name:</label>
+            <input type="text" name="Lastname" class="Lastname" id="Lastname" required maxlength="40">
+        </div>
+    
+        <div class="gnder" id="gnder">
+            <label for="Gender" name="Gender">Gender:</label>
+            <div class="gnder-rad">
+            <label for="Male" name="male">Male</label>
+            <input type="radio" id="Male" class="Male" name="Gender" value="Male" required>
+            <label for="Female" name="female">Female</label>
+            <input type="radio" id="Female" class="Female" name="Gender"  value="Female" required>
+            </div>
+        </div>
+    
+        <div class="dbirt" id="dbirt">
+            <label for="Date of Birth" name="Date of Birth">Date of Birth:</label>
+            <input type="date" name="Date of Birth" class="Date of Birth" id="Date of Birth" required max="2012-12-31">
+        </div>
+    
+        <div class="coll" id="coll">
+            <label for="College" name="College">College:</label>
+            <input type="text" name="College" id="College" class="College" required placeholder="ex. College of Computer and Information Sciences" required maxlength="70">
+        </div>
+    
+        <div class="yrsec" id="yrsec">
+            <label for="Course, Year and Section">Course, Yr. & Section:</label>
+            <input type="text" name="cor-year-section" id="cor-year-section" class="cor-year-section" required placeholder="ex. BSIT 3-1" required maxlength="10">
+        </div>
+    
+        <div class="loc" id="loc">
+            <label for="Address" name="Address">Address:</label>
+            <input type="text" name="Address" id="Address" class="Address" required>
+        </div>
+    
+        <div class="Tel-phone-num" id="Tel-phone-num">
+            <label for="phone-mob-num" name="phone-mob-num">Phone/ Mobile No.:</label>
+            <input type="number" name="Contact-num" id="Contact-num" class="Contact-num" required onkeypress="if(this.value.length >15) return false">
+            
+        </div>
+    
+        <div class="mail" id="mail">
+            <label for="Email" name="Email">Email:</label>
+            <input type="email" name="Email" id="Email" class="Email" required maxlength="80">
+        </div>
+    
+        <br>
+        <br>
+        <label for="Emergency" class="Emergency">In Case of Emergency, please notify:</label>
+        <br>
+        <div class="emer-name" id="emer-name">
+            
+            <label for="emergency-name">Complete Name:</label>
+            <input type="text" class="Emergency-name" name="Emergency-name" id="Emergency-name" maxlength="100" required>
+        </div>
+        <div class="emer-num" id="emer-num">
+            <label for="emergency-number">Phone/Mobile No.:</label>
+            <input type="number" class="emergency-number" name="emergency-number" id="emergency-number" onkeypress="if(this.value.length >15) return false" required >
+        </div>
+    
+        <div class="emer-add" id="emer-add">
+            <label for="Emergency-Address" name="Emergency-Address">Address:</label>
+            <input type="text" name="Emergency-Address" id="Emergency-Address" class="Emergency-Address" required max="200">
+        </div>
+    
+        <div class="submission">
+            <input type="submit" class="submit" id="submit" name="submit">
+            
+        </div>
+        <script src="forms.js"></script>
+    </div>
+</div>
+</div>
+</form>
+</body>
+</html>
