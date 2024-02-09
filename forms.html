@@ -18,7 +18,7 @@
 <div class="forms" id="forms">
     <div class="headings" id="headings">
         <div class="pup-logo" id="pup-logo">
-            <img src="photo/pup-logo.png">
+            <img src="pup-logo.png">
         </div>
         <div class="pup_text" id="pup_text">
             <h1 class="combined-header">
@@ -112,7 +112,7 @@
     <div class="id-forms" id="id-forms">
         <div class="stdnum" id="stdnum">
             <label for="Student Number" name="Student Number">Student Number:</label>
-            <input type="text" name="Student Number"  class="Student Number" id="Student Number" placeholder="ex. 2021-XXXXX-MN-X" required maxlength="16">
+            <input type="text" name="Student Number"  class="Student Number" id="Student Number" placeholder="ex. 2021-XXXXX-MN-X" required maxlength="15">
         </div>
     
         <div class="fname" id="fname">
@@ -157,7 +157,7 @@
     
         <div class="Tel-phone-num" id="Tel-phone-num">
             <label for="phone-mob-num" name="phone-mob-num">Phone/ Mobile No.:</label>
-            <input type="number" name="Contact-num" id="Contact-num" class="Contact-num" required onkeypress="if(this.value.length >15) return false">
+            <input type="number" name="Contact-num" id="Contact-num" class="Contact-num" required onkeypress="if(this.value.length >= 11) return false">
             
         </div>
     
@@ -177,7 +177,7 @@
         </div>
         <div class="emer-num" id="emer-num">
             <label for="emergency-number">Phone/Mobile No.:</label>
-            <input type="number" class="emergency-number" name="emergency-number" id="emergency-number" onkeypress="if(this.value.length >15) return false" required >
+            <input type="number" class="emergency-number" name="emergency-number" id="emergency-number" onkeypress="if(this.value.length >= 11) return false" required >
         </div>
     
         <div class="emer-add" id="emer-add">
